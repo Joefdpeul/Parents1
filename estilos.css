@@ -1,0 +1,118 @@
+
+:root {
+  --azul-petroleo: #184E4E;
+  --crema: #fdf9f4;
+  --oro: #c2a46c;
+  --verde-salvia: #587f6a;
+  --gris-texto: #555;
+  --font-principal: 'Lato', sans-serif;
+  --font-titulos: 'Playfair Display', serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-principal);
+  background-color: var(--crema);
+  color: var(--gris-texto);
+}
+
+header {
+  background-color: var(--azul-petroleo);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}
+
+.logo {
+  font-family: var(--font-titulos);
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-llamada {
+  background-color: var(--oro);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: white;
+}
+
+.hero {
+  background: url('familia.jpg') center/cover no-repeat;
+  color: white;
+  padding: 6rem 3rem;
+  text-align: center;
+}
+
+.hero-texto h1 {
+  font-family: var(--font-titulos);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-texto p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primario {
+  background-color: var(--oro);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.servicios {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: white;
+}
+
+.servicio h3 {
+  margin-top: 1rem;
+  font-family: var(--font-titulos);
+}
+
+.testimonio {
+  background-color: var(--verde-salvia);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.testimonio blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.sellos {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+footer {
+  background-color: var(--azul-petroleo);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
